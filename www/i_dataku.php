@@ -5,7 +5,7 @@ error_reporting(0);
 
 
 //folder webserverku
-$sumberku = "http://192.168.30.13:80";
+$sumberku = "http://localhost:8080";
 
 
 //file ku
@@ -15,7 +15,7 @@ $filenya = "i_dataku.php";
 //koneksi database
 $dbhost = 'localhost';
 $dbuser = 'root';
-$dbpass = 'adminadmin';
+$dbpass = '';
 $koneksi = mysql_connect($dbhost, $dbuser, $dbpass);
 if(! $koneksi )
 	{
